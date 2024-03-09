@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="shortcut icon" type="image/png" href="calculator.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <main>
+            <div id="step1">
+                <h2>Enter the total number of courses:</h2>
+                <form id="numCoursesForm">
+                    <input type="number" id="numCourses" min="1">
+                    <button id="nextBtn">Next</button>
+                </form>
+            </div>
+        <div id="step2" style="display: none;">
+            <h2>Enter CGPA for each course</h2>
+            <form id="step2Form">
+                <div id="cgpaInputs"></div>
+                <button type="submit">Calculate</button>
+            </form>
+        </div>
+        <div id="result" style="display: none;">
+            <h2>Result</h2>
+            <div id="cgpaResult"></div>
+            <div id="gradeResult"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        Created By <c></c><a href="https://www.facebook.com/myself.mahin" target="_blank">Mohammodullah Al Mahin</a></c></span>
+    </footer>
+    
+    
+</body>
+</html>
