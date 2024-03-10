@@ -61,14 +61,14 @@ function createCGPAInputs(numCourses) {
 }
 
 function getGrade(cgpa) {
-  if (cgpa >= 3.75 && cgpa <= 4.0) return "A+ (Outstanding)";
-  else if (cgpa >= 3.5 && cgpa < 3.75) return "A (Excellent)";
-  else if (cgpa >= 3.25 && cgpa < 3.5) return "A- (Quite Excellent)";
-  else if (cgpa >= 3.0 && cgpa < 3.25) return "B+ (Very Good)";
-  else if (cgpa >= 2.75 && cgpa < 3.0) return "B (Good)";
-  else if (cgpa >= 2.5 && cgpa < 2.75) return "B- (Quite Good)";
-  else if (cgpa >= 2.25 && cgpa < 2.5) return "C+ (Above Average)";
-  else if (cgpa >= 2.0 && cgpa < 2.25) return "C (Average)";
+  if (cgpa > 3.75 && cgpa <= 4.0) return "A+ (Outstanding)";
+  else if (cgpa > 3.5 && cgpa <= 3.75) return "A (Excellent)";
+  else if (cgpa > 3.25 && cgpa <= 3.5) return "A- (Quite Excellent)";
+  else if (cgpa > 3.0 && cgpa <= 3.25) return "B+ (Very Good)";
+  else if (cgpa > 2.75 && cgpa <= 3.0) return "B (Good)";
+  else if (cgpa > 2.5 && cgpa <= 2.75) return "B- (Quite Good)";
+  else if (cgpa > 2.25 && cgpa <= 2.5) return "C+ (Above Average)";
+  else if (cgpa > 2.00 && cgpa <= 2.25) return "C (Average)";
   else if (cgpa >= 2.0 && cgpa < 2.25) return "D (Poor)";
   else return "F (Fail)";
 }
