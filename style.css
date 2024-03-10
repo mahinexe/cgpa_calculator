@@ -21,6 +21,18 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
 
 
 h1, h2 {
@@ -60,7 +72,7 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
-    position: fixed;
+    position: bottom;
     bottom: 0;
     width: 100%;
 }
